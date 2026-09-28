@@ -5,5 +5,5 @@ SELECT
     'B2' AS col_b,
     3 AS pad3,
     4 AS pad4,
-    'C1' AS col_c
+    'C2' AS col_c
 FROM dual

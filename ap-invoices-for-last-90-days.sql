@@ -9,8 +9,7 @@ SELECT
     ai.payment_status_flag,
     ai.cancelled_date,
     pv.SEGMENT1 as vendor_number,
-    ai.DISCOUNT_AMOUNT_TAKEN,
-    pv.DUNS_NUMBER_C
+    ai.DISCOUNT_AMOUNT_TAKEN
 FROM ap_invoices_all ai
 JOIN poz_suppliers_v pv
     ON pv.vendor_id = ai.vendor_id

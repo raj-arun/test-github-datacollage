@@ -1,5 +1,5 @@
 SELECT
-    'A1' AS col_a,
+    'A2' AS col_a,
     1 AS pad1,
     2 AS pad2,
     'B1' AS col_b,

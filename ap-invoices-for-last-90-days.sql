@@ -2,7 +2,11 @@ SELECT
     pv.vendor_name                  AS supplier_name,
     ai.invoice_num,
     ai.invoice_date,
+<<<<<<< HEAD
     ai.invoice_currency_code        AS currency, 
+=======
+    ai.invoice_currency_code        AS currency,  --added a comment here
+>>>>>>> parent of 7e38c64... Update ap-invoices-for-last-90-days.sql
     ai.invoice_amount,
     ai.amount_paid,
     (ai.invoice_amount - NVL(ai.amount_paid, 0)) AS amount_due,
